@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine? 💖</h1>
+        <button class="button" onclick="acceptValentine('Yay! 🎁❤️ See you on the 14th!')">Yes!</button>
+        <button class="button" onclick="acceptValentine('Yes, but only if you promise to make me feel like the luckiest person alive! 😘🌹')">Yes!</button>
+        <p id="response"></p>
+        <div id="next-options" style="display: none;">
+            <button class="button" onclick="nextQuestion('Tell me, what’s one thing I can do to make our date unforgettable? 😉')">Let's Turn Up the Heat! 🔥</button>
+            <button class="button" onclick="nextQuestion('What's one thing you've been wanting me to do just for you? 😏')">Your Secret Desire 💕</button>
+        </div>
+        <p id="follow-up"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
